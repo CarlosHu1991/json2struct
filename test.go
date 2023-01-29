@@ -30,7 +30,7 @@ func loadJSON(file string) ([]byte, error) {
 }
 
 //may change path
-const path = "E:\\work\\sgyy\\server\\src\\github.com\\json2struct\\"
+const path = "E:\\github.com\\json2struct\\"
 
 func TestArray() {
 	jsonData, err := loadJSON(path + "testArray.json")
